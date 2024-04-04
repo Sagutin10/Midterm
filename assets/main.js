@@ -17,7 +17,7 @@ window.addEventListener('scroll', function () {
 });
 
 
-// PROJECTS
+
 function isInViewport(element) {
   const rect = element.getBoundingClientRect();
   return (
@@ -44,9 +44,7 @@ document.addEventListener('scroll', animateProjectCards);
 
 animateProjectCards();
 
-// PROJECTS
 
-// TESTIMONIALS
 
 document.addEventListener('DOMContentLoaded', function () {
   const testimonials = document.querySelectorAll('.testimonial');
@@ -69,10 +67,7 @@ document.addEventListener('DOMContentLoaded', function () {
   document.getElementById('nextButton').addEventListener('click', showNextTestimonial);
   document.getElementById('prevButton').addEventListener('click', showPrevTestimonial);
 });
-// TESTIMONIALS
 
-
-// MYNAME
 var text = "Patrick Louis Sagutin";
 var index = 0;
 
@@ -100,7 +95,7 @@ function resetText() {
 window.onload = function () {
   typeText();
 };
-// MYNAME
+
 
 
 function showDetails(projectNumber) {
