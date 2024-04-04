@@ -1,0 +1,435 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Peeka.</title>
+  <link href="https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@400;700&display=swap" rel="stylesheet">
+  <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css" rel="stylesheet">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css">
+  <link rel="shortcut icon" href="./assets/images/ssa.png"
+</head>
+
+<body>
+  <script src="assets/main.js"></script>
+  <nav class="navbar navbar-expand-lg navbar-dark fixed-top" style="background-color: black; padding: 10px 20px;">
+    <div class="container">
+      <a class="navbar-brand" href="index.html">Peeka.</a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+        aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarNav">
+        <ul class="navbar-nav ms-auto">
+          <li class="nav-item">
+            <a class="nav-link" href="#about">About</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#projects">Projects</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#contact">Contact</a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+
+
+  <div class="jumbotron d-flex align-items-center justify-content-center">
+    <div class="bg-image p-5 shadow rounded mb-6 text-white jumbotron-content">
+      <div class="row align-items-center">
+        <div class="col-md-12 mx-auto">
+          <h1 class="display-3">I'm <span style="color: grey;" id="typed-text"></span></h1>
+          <p class="lead">Showcasing my work and skills</p>
+          <a href="./assets/resume.pdf" download="YourResume.pdf" class="btn btn-outline-dark btn-sm">My Resume</a>
+          <section class="d-flex justify-content-center justify-content-lg-between p-4 ">
+        </div>
+      </div>
+    </div>
+  </div>
+  
+  <section id="about" class="py-5 slide-in-from-left">
+    <div class="container">
+      <div class="row">
+        <div class="col-lg-6 mx-auto">
+          <!-- <h5 class="display-6 mb-4">About Me</h5> -->
+          <h3 class="text-black  mb-4 p-4 border-bottom" style="color: #0079FF !important;">A B O U T &nbsp M E</h3>
+          <p class="lead" style="font-size: 17px">I am a skilled and passionate web developer with a strong foundation
+            in both front-end and back-end technologies. With [X] years of experience in the field, I have had the
+            opportunity to work on a diverse range of projects, from simple websites to complex web applications.</p>
+        </div>
+        <!-- <div class="col-lg-4">
+          <img src="./assets/images/wet.jpg" class="img-fluid rounded-circle w-30 bounce-animation"
+            alt="Profile Image">
+        </div> -->
+
+        <div class="blob"></div>
+       
+      </div>
+    </div>
+    <br>
+    <br>
+    <br>
+    <br>
+    <div class="container">
+      <!-- <h2 class="text-center mb-4 p-4 border-bottom ">Services</h2> -->
+      <h3 class="text-black mb-4 p-4 border-bottom" style="color: #0079FF !important;">S E R V I C E S</h3>
+      <div class="d-flex text-align-center row justify-content-center mx-auto">
+        <div class="col-md-6 col-lg-4">
+          <div class="card mb-3">
+            <div class="card-body text-center mx-auto">
+              <i class="fas fa-keyboard fa-pulse fs-1 mb-1"></i>
+              <h5 class="card-title fs-5">Web Design</h5>
+              <p class="card-text" style="font-size: 13px;">Web design encompasses the creation of visually appealing
+                and user-friendly websites through the integration of various disciplines such as visual design, user
+                experience, responsiveness, and accessibility.</p>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-6 col-lg-4">
+          <div class="card mb-3">
+            <div class="card-body text-center mx-auto">
+              <i class="fas fa-network-wired fa-pulse fs-1 mb-1"></i>
+              <h5 class="card-title fs-5">Networking</h5>
+              <p class="card-text" style="font-size: 13px;">Networking involves the establishment and maintenance of
+                connections between devices or systems to facilitate communication, resource sharing, and collaboration.
+              </p>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-6 col-lg-4">
+          <div class="card mb-3">
+            <div class="card-body text-center mx-auto">
+              <i class="fab fa-unity fa-pulse fs-1 mb-1"></i>
+              <h5 class="card-title fs-5">3D Modeling</h5>
+              <p class="card-text" style="font-size: 13px;">3D modeling is the process of creating three-dimensional
+                representations of objects or scenes using specialized software, enabling visualization and simulation
+                for various purposes such as animation, gaming, architecture, and product design.</p>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-6 col-lg-4">
+          <div class="card">
+            <div class="card-body text-center mx-auto">
+              <i class="fab fa-unity fa-pulse fs-1 mb-1"></i>
+              <h5 class="card-title fs-5">Video Editing</h5>
+              <p class="card-text" style="font-size: 13px;">3D modeling is the process of creating three-dimensional
+                representations of objects or scenes using specialized software, enabling visualization and simulation
+                for various purposes such as animation, gaming, architecture, and product design.</p>
+            </div>
+          </div>
+        </div>
+      
+      </div>
+    </div>
+  </section>
+ 
+  <section id="projects" class="bg-white py-5">
+    <div class="container">
+      <h3 class="text-black mb-4 p-4 border-bottom" style="color: #0079FF !important;">M Y &nbsp P R O J E C T S</h3>
+      <div class="containers">
+        <!-- <h2 class="text-center mb-4 p-4 border-bottom">Projects</h2> -->
+
+        <div class="project-card">
+          <img src="./assets/images/mypro1.png" class="project-image" alt="Project 1">
+          <div class="project-details">
+            <h5 class="project-title border-bottom" style="text-align: center;">Isometric Room</h5>
+            <br>
+            <p class="project-description" style="font-size: 13px; text-align: center;">A car rental website is an online platform that allows users to rent vehicles for a specified duration, typically ranging from a few hours to several days.</p>
+            <div class="d-flex justify-content-between" style="width: 70%;">
+              <a href="aw.html" class="btn btn-outline-dark btn-sm" target="_blank">
+                <i class="fas fa-code"></i> Code
+              </a>
+              <div style="width: 5px;"></div>
+              <a href="https://www.rentalcars.com/us/" class="btn btn-outline-dark btn-sm" target="_blank">
+                <i class="fas fa-play-circle"></i> Live Demo
+              </a>
+            </div>
+          </div>
+        </div>
+        
+        <div class="project-card reverse">
+          <img src="./assets/images/cc.png" class="project-image" alt="Project 2">
+          <div class="project-details">
+            <h2 class="project-title border-bottom" style="text-align: center;">PEALS</h2>
+            <br>
+            <p class="project-description" style="font-size: 13px; text-align: center;">A crypto app, short for cryptocurrency app, is a mobile application designed for managing, trading, and investing in cryptocurrencies.</p>
+            <div class="d-flex justify-content-between" style="width: 70%;">
+              <a href="aw.html" class="btn btn-outline-dark btn-sm" target="_blank">
+                <i class="fas fa-code"></i> Code
+              </a>
+              <div style="width: 5px;"></div>
+              <a href="https://crypto.com/" class="btn btn-outline-dark btn-sm" target="_blank">
+                <i class="fas fa-play-circle"></i> Live Demo
+              </a>
+            </div>
+          </div>
+        </div>
+        
+        <div class="project-card">
+          <img src="./assets/images/gg.png" class="project-image" alt="Project 1">
+          <div class="project-details">
+            <h2 class="project-title border-bottom " style=" text-align: center;">PUCCI</h2>
+            <BR>
+            <p class="project-description" style="font-size: 13px; text-align: center;">A fitness app is a mobile
+              application designed to help individuals track, monitor, and improve their physical fitness and overall
+              health.</p>
+              <div class="d-flex justify-content-between" style="width: 70%;">
+                <a href="aw.html" class="btn btn-outline-dark btn-sm" target="_blank">
+                  <i class="fas fa-code"></i> Code
+                </a>
+                <div style="width: 5px;"></div>
+                <a href="https://www.anytimefitness.com/" class="btn btn-outline-dark btn-sm" target="_blank">
+                  <i class="fas fa-play-circle"></i> Live Demo
+                </a>
+              </div>
+          </div>
+        </div>
+
+        <div class="project-card reverse">
+          <img src="./assets/images/ga.png" class="project-image" alt="Project 2">
+          <div class="project-details">
+            <h5 class="project-title border-bottom" style=" text-align: center;">LEAKEAD</h5>
+            <BR>
+            <p class="project-description" style="font-size: 13px; text-align: center;">
+              A game website is an online platform that offers a variety of games for users to play directly in their
+              web browsers. </p>
+              <div class="d-flex justify-content-between" style="width: 70%;">
+                <a href="aw.html" class="btn btn-outline-dark btn-sm" target="_blank">
+                  <i class="fas fa-code"></i> Code
+                </a>
+                <div style="width: 5px;"></div>
+                <a href="https://playvalorant.com/en-us/" class="btn btn-outline-dark btn-sm" target="_blank">
+                  <i class="fas fa-play-circle"></i> Live Demo
+                </a>
+              </div>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <div class="container">
+    <section id="contact" class="py-5 bg-white">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-6">
+                    <h3 class="text-black mb-4 p-4" style="color: #0079FF !important;">C O N T A C T &nbsp M E</h3>
+                    <p>Email: peeka@gmail.com</p>
+                    <p>Phone: 123-456-7890</p>
+                    <p>Address: PHILIPPINES, MNL 10012, PH</p>
+                </div>
+                <div class="col-md-6">
+                    <form id="contactForm">
+                        <div class="mb-3">
+                            <label for="name" class="form-label">Name</label>
+                            <input type="text" class="form-control" id="name" placeholder="Enter your name">
+                        </div>
+                        <div class="mb-3">
+                            <label for="email" class="form-label">Email</label>
+                            <input type="email" class="form-control" id="email" placeholder="Enter your email">
+                        </div>
+                        <div class="mb-3">
+                            <label for="message" class="form-label">Message</label>
+                            <textarea class="form-control" id="message" rows="5" placeholder="Enter your message"></textarea>
+                        </div>
+                        <button type="button" id="submitBtn" class="btn btn-outline-primary">Submit</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
+</div>
+
+<div class="modal fade" id="myModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+    <div class="modal-dialog">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h5 class="modal-title" id="exampleModalLabel">Thank you!!!</h5>
+                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+            </div>
+            <div class="modal-body">
+                Your message has been successfully sent.
+            </div>
+        </div>
+    </div>
+</div>
+
+  <section id="testimonials" class="py-5">
+    <div class="container">
+      <h3 class="text-black mb-4 p-4 border-bottom" style="color: #0079FF !important;">T E S T I M O N I A L S</h3>
+      <div class="row justify-content-center">
+        <div class="col-lg-8">
+          <div class="testimonial-carousel d-flex flex-nowrap overflow-hidden justify-content-center">
+            <div class="testimonial active">
+              <img src="./assets/images/op.jpg" alt="Avatar 1">
+              <h5 class="name">Bogart Doe</h5>
+              <p class="motto">"Amazing service and quality work!"</p>
+            </div>
+            <div class="testimonial">
+              <img src="./assets/images/yo.jpg" alt="Avatar 2">
+              <h5 class="name">Jane Smith</h5>
+              <p class="motto">"Highly recommend! Great experience."</p>
+            </div>
+            <div class="testimonial">
+              <img src="./assets/images/bb.jpg" alt="Avatar 2">
+              <h5 class="name">Yumi Garcia</h5>
+              <p class="motto">"Baby shark do do do do."</p>
+            </div>
+            <div class="testimonial">
+              <img src="./assets/images/eh.jpg" alt="Avatar 2">
+              <h5 class="name">Ava Mendezh</h5>
+              <p class="motto">"eh eh eh eh eh."</p>
+            </div>
+            <div class="testimonial">
+              <img src="./assets/images/rob.jpg" alt="Avatar 2">
+              <h5 class="name">Rob Guinto</h5>
+              <p class="motto">"Highly recommend! Great experience."</p>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="row justify-content-center mt-3">
+        <div class="col-md-auto">
+          <button id="prevButton" class="btn btn-outline-dark btn-sm">&lt; Prev</button>
+          <button id="nextButton" class="btn btn-outline-dark btn-sm">Next &gt;</button>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <footer class="text-center text-lg-start bg-black text-white">
+
+    <section class="d-flex justify-content-center justify-content-lg-between p-4 border-bottom">
+
+      <div class="me-5 d-none d-lg-block">
+        <span>Get connected with me on social networks:</span>
+      </div>
+
+      <div>
+        <a href="https://www.facebook.com/aj.magno.14" class="me-4 text-white">
+          <i class="fab fa-facebook-f "></i>
+        </a>
+        <a href="#" class="me-4 text-white">
+          <i class="fab fa-twitter"></i>
+        </a>
+        <a href="Google.com" class="me-4 text-white">
+          <i class="fab fa-google"></i>
+        </a>
+        <a href="#" class="me-4 text-white">
+          <i class="fab fa-instagram"></i>
+        </a>
+        <a href="#" class="me-4 text-white">
+          <i class="fab fa-linkedin"></i>
+        </a>
+        <a href="#" class="me-4 text-white">
+          <i class="fab fa-github"></i>
+        </a>
+      </div>
+
+    </section>
+
+
+    <section class="mt-5">
+      <div class="container text-center text-md-start">
+
+        <div class="row mt-3">
+
+          <div class="col-md-3 col-lg-4 col-xl-3 mx-auto mb-4">
+
+            <h6 class="text-uppercase fw-bold mb-4">
+              <i class="fa fa-diamond me-3"></i>PATRICK LOUIS SAGUTIN
+            </h6>
+            <p>
+              "Good artist copy, Great artist steal."
+            </p>
+          </div>
+
+          <div class="col-md-2 col-lg-2 col-xl-2 mx-auto mb-4">
+
+            <h6 class="text-uppercase fw-bold mb-4">
+              Support
+            </h6>
+            <p>
+              <a href="#!" class="text-white">FAQ</a>
+            </p>
+            <p>
+              <a href="#!" class="text-white">Privacy Policy</a>
+            </p>
+            <p>
+              <a href="#!" class="text-white">Terms Of Use</a>
+            </p>
+          </div>
+
+          <div class="col-md-3 col-lg-2 col-xl-2 mx-auto mb-4">
+
+            <h6 class="text-uppercase fw-bold mb-4">
+              About
+            </h6>
+            <p>
+              <a href="#!" class="text-white">Resume</a>
+            </p>
+            <p>
+              <a href="#!" class="text-white">Settings</a>
+            </p>
+            <p>
+              <a href="#!" class="text-white">Help</a>
+            </p>
+          </div>
+
+          <div class="col-md-4 col-lg-3 col-xl-3 mx-auto mb-md-0 mb-4">
+
+            <h6 class="text-uppercase fw-bold mb-4">Contact</h6>
+            <p><i class="fa fa-home me-3"></i> PHILIPPINES, MNL 10012, PH</p>
+            <p>
+              <i class="fa fa-envelope me-3"></i>
+              peeka@gmail.com
+            </p>
+            <p><i class="fa fa-phone me-3"></i> + 69 234 567 88</p>
+            <p><i class="fa fa-print me-3"></i> + 69 234 567 89</p>
+          </div>
+
+        </div>
+
+      </div>
+    </section>
+
+    <div class="text-center p-4" style="background-color: #000;">
+      © 2024 Copyright:
+      <a class="text-white fw-bold" href="index.html">PEEKA.COM</a>
+    </div>
+
+  </footer>
+
+
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.min.js"></script>
+ 
+  <script>
+    document.getElementById('submitBtn').addEventListener('click', function () {
+        
+        var name = document.getElementById('name').value.trim();
+        var email = document.getElementById('email').value.trim();
+        var message = document.getElementById('message').value.trim();
+
+        
+        if (name === '' || email === '' || message === '') {
+            alert('FILL IN ALL FIELDS!!');
+            return; 
+        }
+
+        
+        $('#myModal').modal('show');
+    });
+</script>
+
+
+ 
+</body>
+
+</html>
